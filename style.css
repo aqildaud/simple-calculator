@@ -3,8 +3,8 @@
 }
 
 body {
-  background-color: #212121;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  font-family: "Space Mono", monospace;
 }
 
 section {
@@ -12,17 +12,18 @@ section {
 }
 
 .calculation {
-  color: #FFF7D6;
+  color: #1C1C1C;
   font-size: 45px;
   margin-top: 15px;
   margin-bottom: 5px;
   text-align: right;
-  width: 265px;
+  max-width: 265px;
+  letter-spacing: -2px;
+  word-wrap: break-word;
 }
 
 .calculator-button {
   font-size: 25px;
-  font-weight: bold;
   width: 60px;
   height: 60px;
   margin: 2px;
@@ -33,23 +34,31 @@ section {
 }
 
 .light-button {
-  background-color: #8ECAE6;
-  color: #FFF7D6;
+  background-image: linear-gradient(180deg, #F7F7F7, #EDEDED );
+  color: #1C1C1C;
+  border: 2px solid #20202011;
+  box-shadow: 0 2px 5px 1px #00000020;
 }
 
 .light-button:hover {
-  background-color:  #FFF7D6;
-  color:#8ECAE6;
+  background-image: linear-gradient(180deg, #1c1c1c, #202020 );
+  color:#F7F7F7;
+  border: 2px solid #20202011;
+  box-shadow: 0 2px 5px 1px #00000020;
 }
 
 .orange-button {
   color: #FFF7D6;
   background-color: #FB8500;
+  border: 2px solid #20202011;
+  box-shadow: 0 2px 5px 1px #00000020;
 }
 
 .orange-button:hover {
   color: #FB8500;
   background-color: #FFF7D6;
+  border: 2px solid #20202011;
+  box-shadow: 0 2px 5px 1px #00000020;
 }
 
 .clear-button {
