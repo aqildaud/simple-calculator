@@ -1,1 +1,1 @@
-Unemployment got me revisiting HTML, CSS and JavaScript.
+Exercise 1 for supersimpledev javascript course
